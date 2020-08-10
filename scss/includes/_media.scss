@@ -1,0 +1,138 @@
+@media (min-width: 1200px) {
+
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .brochure {
+        gap: 0px;
+
+        .green-block, .gray-block {
+            padding: 55px;
+        }
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .brochure {
+        gap: 0;
+
+        .green-block, .gray-block {
+            padding: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    
+    .brochure {
+        gap: 0;
+        flex-direction: column;
+
+        .green-block, .gray-block {
+            flex: initial;
+            padding: 10px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 576px) and (min-width: 280px) {
+    
+    .header-top-section {
+        display: none;
+    }
+
+    .header-image {
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            left: 42%;
+            top: 100%;
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-top: 34px solid #e8e8e8;
+            clear: both;
+        }
+    }
+
+    .build-workspaces {
+        padding-top: 65px;
+
+        .container {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .logo-parent {
+            margin: 0 0 65px;
+
+            img {
+                width: 155px;
+                height: 155px;
+            }
+        }
+    }
+
+    .chromebook-certified {
+        .hide-mobile {
+            display: none;
+        }
+    }
+
+    .compatible {
+        .circle {
+            margin-bottom: 20px;
+        }
+        .compatible-parent {
+            .compatible-item {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    .how-to-buy {
+        margin-top: 100px;
+    }
+
+    .brochure {
+        gap: 0;
+        flex-direction: column;
+        margin-top: 140px;
+
+        .green-block, .gray-block {
+            flex: initial;
+            padding: 50px 10px;
+        }
+
+        .green-block {
+            position: relative;
+
+            &:after {
+                content: '';
+                position: absolute;
+                left: 42%;
+                top: 100%;
+                width: 0;
+                height: 0;
+                border-left: 40px solid transparent;
+                border-right: 40px solid transparent;
+                border-top: 34px solid #73D44A;
+                clear: both;
+            }
+        }
+
+        .title {
+            font-size: 25px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+        }
+
+        .view-brochure {
+            font-size: 20px;
+        }
+    }
+}

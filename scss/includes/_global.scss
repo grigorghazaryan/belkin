@@ -1,0 +1,28 @@
+.bold-title {
+    font-weight: 600;
+    font-family: "metric-bold", Arial, sans-serif;
+    margin: 0;
+
+    @media screen and (max-width: 576px) and (min-width: 280px) {
+        font-size: 26px;
+    }
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 26px;
+    line-height: normal;
+
+    @media screen and (max-width: 576px) and (min-width: 280px) {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+}
+
+.background-blue {
+    background-color: #4A9BED;
+}
+
+.checked {
+    color: #FCAF33 ;
+}

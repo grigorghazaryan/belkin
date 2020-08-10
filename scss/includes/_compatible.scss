@@ -1,0 +1,68 @@
+.compatible {
+    text-align: center;
+
+    .compatible-parent  {
+        margin-top: 90px;
+
+        .compatible-item {
+            position: relative;
+
+            &:first-child {
+                .circle {
+                    img {
+                        width: 250%;
+                    }
+                }
+            }
+
+            .circle {
+
+                width: 270px;
+                height: 270px;
+                border-radius: 50%;
+                background-color: #ebe9e5;
+                margin: 0 auto;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                img {
+                    width: 105%;
+                    transition: transform .5s ease;
+                }
+
+
+                &:hover img {
+                    transform: scale(1.1);
+                }
+            }
+
+            .compatible-item-title {
+                margin-top: 25px;
+                font-weight: 600;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .view-all-parent {
+        text-align: center;
+        margin-top: 60px;
+
+        .view-all-button {
+            margin-top: 35px;
+            background-color: #79DB74;
+            color: #000;
+            height: 35px;
+            line-height: 29px;
+            font-weight: 600;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            font-size: 17px;
+            padding: 0 38px;
+        }
+    }
+}

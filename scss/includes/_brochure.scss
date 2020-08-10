@@ -1,0 +1,44 @@
+.brochure {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+
+    .gray-block,
+    .green-block {
+        padding: 55px 100px;
+    }
+
+    .green-block {
+        flex: 1;
+        background-color: #73D44A;
+    }
+    .gray-block {
+        flex: 1;
+        background-color: #A69C94;
+    }
+
+    .title {
+        font-size: 33px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        margin-top: 40px;
+
+        a {
+            color: inherit;
+        }
+    }
+
+    .view-brochure {
+        display: inline-block;
+        font-size: 24px;
+        color: #000;
+        text-decoration: underline;
+        margin-top: 40px;
+    }
+}
