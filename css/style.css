@@ -147,7 +147,7 @@ header {
 .chromebook-certified .product-childs-parent .product-item .product-image:after {
   content: "";
   width: 35px;
-  background-image: url(../../img/www-logo.png);
+  background-image: url(../img/www-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
