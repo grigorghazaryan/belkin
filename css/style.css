@@ -1,6 +1,7 @@
 .bold-title {
-  font-weight: 600;
-  font-family: "metric-bold", Arial, sans-serif;
+  font-family: MetricBold, Arial, sans-serif;
+  font-size: 38px;
+  color: #000;
   margin: 0;
 }
 
@@ -11,9 +12,11 @@
 }
 
 .subtitle {
-  margin: 0;
+  font-family: MetricRegular, Arial, sans-serif;
+  color: #000;
+  margin: 5px 0;
   font-size: 26px;
-  line-height: normal;
+  line-height: 1.3;
 }
 
 @media screen and (max-width: 576px) and (min-width: 280px) {
@@ -29,6 +32,21 @@
 
 .checked {
   color: #FCAF33;
+}
+
+@font-face {
+  font-family: MetricBold;
+  src: url(../fonts/Metric-Bold.otf);
+}
+
+@font-face {
+  font-family: MetricSemiBold;
+  src: url(../fonts/Metric-SemiBold.otf);
+}
+
+@font-face {
+  font-family: MetricRegular;
+  src: url(../fonts/Metric-Regular.otf);
 }
 
 .header-top-section {
@@ -99,24 +117,27 @@ header {
 }
 
 .chromebook-certified .products-parent .product-item .item-title {
-  font-size: 30px;
-  font-weight: 900;
+  font-family: MetricBold;
+  font-size: 35px;
   line-height: normal;
   margin: 61px 0 20px;
+  color: #000;
 }
 
 .chromebook-certified .products-parent .product-item .item-subtitle {
+  font-family: MetricRegular;
   font-size: 20px;
   line-height: inherit;
   color: gray;
 }
 
 .chromebook-certified .products-parent .product-item .show-me-button {
+  font-family: MetricBold;
   margin-top: 35px;
   background-color: #79DB74;
   color: #000;
   height: 35px;
-  line-height: 29px;
+  line-height: 43px;
   font-weight: 600;
   border: none;
   outline: none;
@@ -134,8 +155,8 @@ header {
 }
 
 .chromebook-certified .product-childs-parent .product-item .item-title {
+  font-family: MetricBold;
   font-size: 20px;
-  font-weight: 600;
   line-height: normal;
   margin: 10px 0 20px;
 }
@@ -171,8 +192,8 @@ header {
 }
 
 .chromebook-certified .product-childs-parent .product-item .price-parent {
+  font-family: MetricBold;
   font-size: 19px;
-  font-weight: 600;
   margin: 20px 0;
 }
 
@@ -247,8 +268,9 @@ header {
 }
 
 .compatible .compatible-parent .compatible-item .compatible-item-title {
+  font-family: MetricBold;
+  line-height: 1.1;
   margin-top: 25px;
-  font-weight: 600;
   font-size: 25px;
 }
 
@@ -258,11 +280,12 @@ header {
 }
 
 .compatible .view-all-parent .view-all-button {
+  font-family: MetricBold;
   margin-top: 35px;
   background-color: #79DB74;
   color: #000;
   height: 35px;
-  line-height: 29px;
+  line-height: 43px;
   font-weight: 600;
   border: none;
   outline: none;
@@ -285,6 +308,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .brochure {
@@ -313,12 +337,17 @@ header {
 }
 
 .brochure .title {
+  font-family: MetricSemiBold;
+  line-height: 1;
   font-size: 33px;
 }
 
 .brochure .subtitle {
+  font-family: MetricRegular;
+  line-height: 1.5;
   font-size: 24px;
   margin-top: 40px;
+  color: #fff;
 }
 
 .brochure .subtitle a {
@@ -326,6 +355,7 @@ header {
 }
 
 .brochure .view-brochure {
+  font-family: MetricRegular;
   display: inline-block;
   font-size: 24px;
   color: #000;

@@ -22,12 +22,17 @@
     }
 
     .title {
+        font-family: MetricSemiBold;
+        line-height: 1;
         font-size: 33px;
     }
 
     .subtitle {
+        font-family: MetricRegular;
+        line-height: 1.5;
         font-size: 24px;
         margin-top: 40px;
+        color: #fff;
 
         a {
             color: inherit;
@@ -35,6 +40,7 @@
     }
 
     .view-brochure {
+        font-family: MetricRegular;
         display: inline-block;
         font-size: 24px;
         color: #000;

@@ -1,6 +1,7 @@
 .bold-title {
-    font-weight: 600;
-    font-family: "metric-bold", Arial, sans-serif;
+    font-family: MetricBold, Arial, sans-serif;
+    font-size: 38px;
+    color: #000;
     margin: 0;
 
     @media screen and (max-width: 576px) and (min-width: 280px) {
@@ -9,9 +10,11 @@
 }
 
 .subtitle {
-    margin: 0;
+    font-family: MetricRegular, Arial, sans-serif;
+    color: #000;
+    margin: 5px 0;
     font-size: 26px;
-    line-height: normal;
+    line-height: 1.3;
 
     @media screen and (max-width: 576px) and (min-width: 280px) {
         font-size: 22px;

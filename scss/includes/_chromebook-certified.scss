@@ -35,24 +35,27 @@
             }
     
             .item-title {
-                font-size: 30px;
-                font-weight: 900;
+                font-family: MetricBold;
+                font-size: 35px;
                 line-height: normal;
                 margin: 61px 0 20px;
+                color: #000;
             }
     
             .item-subtitle {
+                font-family: MetricRegular;
                 font-size: 20px;
                 line-height: inherit;
                 color: gray;
             }
     
             .show-me-button {
+                font-family: MetricBold;
                 margin-top: 35px;
                 background-color: #79DB74;
                 color: #000;
                 height: 35px;
-                line-height: 29px;
+                line-height: 43px;
                 font-weight: 600;
                 border: none;
                 outline: none;
@@ -70,8 +73,8 @@
             text-align: center;
 
             .item-title {
+                font-family: MetricBold;
                 font-size: 20px;
-                font-weight: 600;
                 line-height: normal;
                 margin: 10px 0 20px;
             }
@@ -107,8 +110,8 @@
             }
 
             .price-parent {
+                font-family: MetricBold;
                 font-size: 19px;
-                font-weight: 600;
                 margin: 20px 0;
             }
 

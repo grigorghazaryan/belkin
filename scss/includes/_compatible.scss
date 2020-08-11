@@ -40,8 +40,9 @@
             }
 
             .compatible-item-title {
+                font-family: MetricBold;
+                line-height: 1.1;
                 margin-top: 25px;
-                font-weight: 600;
                 font-size: 25px;
             }
         }
@@ -52,11 +53,12 @@
         margin-top: 60px;
 
         .view-all-button {
+            font-family: MetricBold;
             margin-top: 35px;
             background-color: #79DB74;
             color: #000;
             height: 35px;
-            line-height: 29px;
+            line-height: 43px;
             font-weight: 600;
             border: none;
             outline: none;
