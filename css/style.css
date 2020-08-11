@@ -34,6 +34,32 @@
   color: #FCAF33;
 }
 
+.green-button {
+  font-family: MetricBold;
+  margin-top: 35px;
+  background-color: #79DB74;
+  color: #000;
+  height: 35px;
+  line-height: 43px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 17px;
+  padding: 0 38px;
+  transition: .3s ease-in;
+}
+
+.green-button:hover {
+  background-color: #6A6562;
+  color: #fff;
+}
+
+.green-button:focus, .green-button:active {
+  outline: none;
+  box-shadow: none;
+}
+
 @font-face {
   font-family: MetricBold;
   src: url(../fonts/Metric-Bold.otf);
@@ -131,21 +157,6 @@ header {
   color: gray;
 }
 
-.chromebook-certified .products-parent .product-item .show-me-button {
-  font-family: MetricBold;
-  margin-top: 35px;
-  background-color: #79DB74;
-  color: #000;
-  height: 35px;
-  line-height: 43px;
-  font-weight: 600;
-  border: none;
-  outline: none;
-  border-radius: 20px;
-  font-size: 17px;
-  padding: 0 38px;
-}
-
 .chromebook-certified .product-childs-parent {
   margin-top: 35px;
 }
@@ -159,6 +170,7 @@ header {
   font-size: 20px;
   line-height: normal;
   margin: 10px 0 20px;
+  transition: .3s;
 }
 
 .chromebook-certified .product-childs-parent .product-item .product-image {
@@ -178,7 +190,7 @@ header {
 }
 
 .chromebook-certified .product-childs-parent .product-item .product-image:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .chromebook-certified .product-childs-parent .product-item .product-image img {
@@ -195,6 +207,7 @@ header {
   font-family: MetricBold;
   font-size: 19px;
   margin: 20px 0;
+  transition: .3s;
 }
 
 .chromebook-certified .product-childs-parent .product-item .color-parent {
@@ -221,6 +234,11 @@ header {
   height: calc(100% - 8px);
   background-color: #000;
   border-radius: 50%;
+}
+
+.chromebook-certified .product-childs-parent .product-item:hover .item-title,
+.chromebook-certified .product-childs-parent .product-item:hover .price-parent {
+  color: #93D756;
 }
 
 .banner {
@@ -277,21 +295,6 @@ header {
 .compatible .view-all-parent {
   text-align: center;
   margin-top: 60px;
-}
-
-.compatible .view-all-parent .view-all-button {
-  font-family: MetricBold;
-  margin-top: 35px;
-  background-color: #79DB74;
-  color: #000;
-  height: 35px;
-  line-height: 43px;
-  font-weight: 600;
-  border: none;
-  outline: none;
-  border-radius: 20px;
-  font-size: 17px;
-  padding: 0 38px;
 }
 
 .how-to-buy {
@@ -361,6 +364,10 @@ header {
   color: #000;
   text-decoration: underline;
   margin-top: 40px;
+}
+
+.brochure .view-brochure:hover {
+  text-decoration: none;
 }
 
 footer {

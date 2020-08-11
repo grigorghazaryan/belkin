@@ -29,3 +29,30 @@
 .checked {
     color: #FCAF33 ;
 }
+
+.green-button {
+    font-family: MetricBold;
+    margin-top: 35px;
+    background-color: #79DB74;
+    color: #000;
+    height: 35px;
+    line-height: 43px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 0 38px;
+    transition: .3s ease-in;
+
+    &:hover {
+        background-color: #6A6562;
+        color: #fff;
+    }
+
+    &:focus,
+    &:active {
+        outline: none;
+        box-shadow: none;
+    }
+}
