@@ -31,6 +31,7 @@
 }
 
 .green-button {
+    display: inline-block;
     font-family: MetricBold;
     margin-top: 35px;
     background-color: #79DB74;
@@ -44,15 +45,18 @@
     font-size: 17px;
     padding: 0 38px;
     transition: .3s ease-in;
+    text-decoration: none !important;
 
     &:hover {
         background-color: #6A6562;
         color: #fff;
+        text-decoration: none;
     }
 
     &:focus,
     &:active {
-        outline: none;
-        box-shadow: none;
+        outline: none !important;
+        box-shadow: none !important;
+        text-decoration: none !important;
     }
 }

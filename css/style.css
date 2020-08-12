@@ -35,6 +35,7 @@
 }
 
 .green-button {
+  display: inline-block;
   font-family: MetricBold;
   margin-top: 35px;
   background-color: #79DB74;
@@ -48,16 +49,19 @@
   font-size: 17px;
   padding: 0 38px;
   transition: .3s ease-in;
+  text-decoration: none !important;
 }
 
 .green-button:hover {
   background-color: #6A6562;
   color: #fff;
+  text-decoration: none;
 }
 
 .green-button:focus, .green-button:active {
-  outline: none;
-  box-shadow: none;
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
 }
 
 @font-face {
@@ -159,6 +163,11 @@ header {
 
 .chromebook-certified .product-childs-parent {
   margin-top: 35px;
+  text-decoration: none;
+}
+
+.chromebook-certified .product-childs-parent:active, .chromebook-certified .product-childs-parent:focus, .chromebook-certified .product-childs-parent:visited, .chromebook-certified .product-childs-parent:hover {
+  text-decoration: none !important;
 }
 
 .chromebook-certified .product-childs-parent .product-item {
@@ -171,6 +180,7 @@ header {
   line-height: normal;
   margin: 10px 0 20px;
   transition: .3s;
+  color: #000;
 }
 
 .chromebook-certified .product-childs-parent .product-item .product-image {
@@ -189,10 +199,6 @@ header {
   height: 35px;
 }
 
-.chromebook-certified .product-childs-parent .product-item .product-image:hover img {
-  transform: scale(1.05);
-}
-
 .chromebook-certified .product-childs-parent .product-item .product-image img {
   width: 100%;
   transition: transform .5s ease;
@@ -208,6 +214,7 @@ header {
   font-size: 19px;
   margin: 20px 0;
   transition: .3s;
+  color: #000;
 }
 
 .chromebook-certified .product-childs-parent .product-item .color-parent {
@@ -236,9 +243,17 @@ header {
   border-radius: 50%;
 }
 
+.chromebook-certified .product-childs-parent .product-item:hover {
+  text-decoration: none;
+}
+
 .chromebook-certified .product-childs-parent .product-item:hover .item-title,
 .chromebook-certified .product-childs-parent .product-item:hover .price-parent {
   color: #93D756;
+}
+
+.chromebook-certified .product-childs-parent .product-item:hover img {
+  transform: scale(1.05);
 }
 
 .banner {
@@ -312,6 +327,11 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  transition: transform .5s ease;
+}
+
+.how-to-buy .companies-parent .comp-item:hover {
+  transform: scale(1.1);
 }
 
 .brochure {
@@ -438,8 +458,8 @@ footer {
     width: 155px;
     height: 155px;
   }
-  .chromebook-certified .hide-mobile {
-    display: none;
+  .chromebook-certified .bold-title {
+    margin-top: 35px;
   }
   .compatible .circle {
     margin-bottom: 20px;
@@ -483,5 +503,15 @@ footer {
   .brochure .view-brochure {
     font-size: 20px;
   }
+}
+
+.note .subtitle {
+  font-family: MetricRegular, Arial, sans-serif;
+  color: #000;
+  margin: 5px 0;
+  font-size: 26px;
+  line-height: 1.3;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 /*# sourceMappingURL=style.css.map */
