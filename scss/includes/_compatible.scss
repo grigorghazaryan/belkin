@@ -8,10 +8,10 @@
         .compatible-item {
             position: relative;
 
-            &:first-child {
+            &:last-child {
                 .circle {
                     img {
-                        width: 250%;
+                       width: 120%;
                     }
                 }
             }

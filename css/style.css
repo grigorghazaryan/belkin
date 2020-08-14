@@ -276,8 +276,8 @@ header {
   position: relative;
 }
 
-.compatible .compatible-parent .compatible-item:first-child .circle img {
-  width: 250%;
+.compatible .compatible-parent .compatible-item:last-child .circle img {
+  width: 120%;
 }
 
 .compatible .compatible-parent .compatible-item .circle {
