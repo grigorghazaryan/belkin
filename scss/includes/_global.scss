@@ -42,10 +42,11 @@
     border: none;
     outline: none;
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 16px;
     padding: 0 38px;
     transition: .3s ease-in;
     text-decoration: none !important;
+    cursor: pointer;
 
     &:hover {
         background-color: #6A6562;
