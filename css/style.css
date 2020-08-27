@@ -607,8 +607,8 @@ footer {
 }
 
 .contact-us .two-cols-parent .connect-with-us-wrapper {
-  padding: 70px 95px;
-  width: 100%;
+  padding: 70px 60px;
+  width: calc(100% - 30px);
   height: auto;
   background-color: #F2F2F2;
   position: absolute;
@@ -703,5 +703,14 @@ footer {
 
 .mb-10 {
   margin-bottom: 10px;
+}
+
+.text-underline {
+  text-decoration: underline;
+  color: #2F3132;
+}
+
+.text-underline:hover {
+  color: #2F3132;
 }
 /*# sourceMappingURL=style.css.map */
