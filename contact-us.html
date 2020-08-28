@@ -42,7 +42,7 @@
                         Our Education team will help you find the solutions for your evolving classroom. 
                         <br> Contact us at:
                     </p>
-                    <div class="icon-text mb-35">
+                    <div class="icon-text mb-50">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11"><g transform="translate(10.56 1.998)"><path d="M339.392,148.48l5.44,3.439V144.9Z" transform="translate(-339.392 -144.896)"/></g><g transform="translate(0 1.998)"><path d="M0,144.9v7.023l5.44-3.439Z" transform="translate(0 -144.896)"/></g><g transform="translate(0.03 0)"><path d="M15.93,80h-14a.99.99,0,0,0-.97.858l7.97,5.3,7.97-5.3A.99.99,0,0,0,15.93,80Z" transform="translate(-0.96 -80)"/></g><g transform="translate(0.032 6.144)"><path d="M10.682,277.921l-1.415.94a.5.5,0,0,1-.55,0L7.3,277.92l-6.278,4a.989.989,0,0,0,.968.851h14a.989.989,0,0,0,.968-.851Z" transform="translate(-1.024 -277.92)"/></g></svg>
                         <a href="mailto:EducationTeam@belkin.com" class="text-underline">EducationTeam@belkin.com</a>
                     </div>
@@ -88,31 +88,51 @@
                     <div class="connect-with-us-wrapper">
                         <h1 class="title mb-10">CONNECT WITH US</h1>
                         <div class="icon-text mb-60">Fill out the form below to request a team member to contact you.</div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" placeholder="* First Name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" placeholder="* Last Name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" placeholder="* Email Address">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" placeholder="* Company/School/Organization name">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="* Question (please specify your industry)"></textarea>
-                            </div>
-                            <div class="col-md-12 send-button-parent">
-                                <div class="green-button">SEND</div>
-                            </div>
-                        </div>
+                        
+
+                            <form id="form" action="#">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" name="firstName" id="firstName" placeholder="* First Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="lastName" id="lastName" placeholder="* Last Name">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" name="email" id="email" class="mt-25" placeholder="* Email Address">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="company" id="company" class="mt-25" placeholder="* Company/School/Organization name">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea id="question" class="mt-25" name="question" placeholder="* Question (please specify your industry)"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 send-button-parent">
+                                        <div class="green-button">SEND</div>
+                                    </div>
+                                </div>
+                            </form>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/additional-methods.js"></script>
+<script src="js/validation.js"></script>
+
 </body>
 </html>

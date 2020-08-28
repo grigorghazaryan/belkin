@@ -116,10 +116,14 @@
                 border-radius: 0;
             }
 
+            .mt-25 {
+                margin-top: 25px;
+            }
+
             input {
                 height: 55px;
                 padding: 19px 15px 12px;
-                margin-bottom: 25px;
+                margin-top: 0;
 
                 &:focus {
                     border-color: rgb(83, 83, 83);
@@ -185,6 +189,10 @@
 }
 .mb-10 {
     margin-bottom: 10px;
+}
+.error {
+    color: #ff0000d1;
+    margin-top: 5px;
 }
 .text-underline {
     text-decoration: underline;
