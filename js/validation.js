@@ -27,6 +27,9 @@ $(document).ready(function () {
                 required: "Please, enter an email",
                 email: "Email is invalid"
             }
+        },
+        submitHandler: function (form) {
+            return false;
         }
     });
 });
