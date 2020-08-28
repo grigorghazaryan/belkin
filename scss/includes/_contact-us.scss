@@ -34,7 +34,7 @@
             font-family: MetricBold, Arial, sans-serif
         }
 
-        .subtitle {
+        .contact-subtitle {
             position: relative;
             font-family: MetricBold, Arial, sans-serif;
             font-size: 16px;
@@ -103,6 +103,12 @@
 
             @media (max-width: 800px) {
                 width: calc(100% - 30px)
+            }
+
+            @media (max-width: 767px) {
+                .m-mt {
+                    margin-top: 25px;
+                }
             }
 
             input, textarea {
